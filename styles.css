@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Frank Ruhl Libre';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+main {
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+h1 {
+    text-align: center;
+    padding: 5px 40px;
+}
+
+h2 {
+    text-decoration: none;
+
+}
+
+.container {
+    width: 720px ;
+}
+
+#recipe-comment {
+    color: #004d4c;
+    font-size: small;
+}
+
+#logo-bar {
+    display: flex;
+    justify-content: center;
+}
+
+
+#logo {
+    max-height: 45px;
+    margin-bottom: 10px;
+}
+
+#recipe-img {
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+#image-container {
+    text-align: center;
+    color: #999999;
+}
+
+#sub-bar {
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px #ffd877;
+    background-color: #fdfbf1;
+    color: #004d4c;
+}
+
+.uppercased {
+    text-transform: uppercase;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}
+
+.text-red {
+    color: #c06133;
+}
+
+.no-vertical-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#featured-container {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: solid 2px #ffd877;
+}
+
+.paragrah-title-container {
+    margin: 35px 0;
+    border-bottom: solid 1px #c4f3f2;
+}
+

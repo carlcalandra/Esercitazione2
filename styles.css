@@ -1,21 +1,16 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Frank Ruhl Libre';
 }
 
 header {
-    display: flex;
-    flex-direction: column;
     padding: 5px 0;
 }
 
 main {
     margin: 15px;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
 }
 
 h1 {
@@ -25,11 +20,12 @@ h1 {
 
 h2 {
     text-decoration: none;
-
 }
 
-.container {
-    width: 720px ;
+#receipe-container {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
 }
 
 #recipe-comment {
@@ -37,7 +33,7 @@ h2 {
     font-size: small;
 }
 
-#logo-bar {
+.flexcontainer-centered {
     display: flex;
     justify-content: center;
 }
@@ -59,8 +55,6 @@ h2 {
 }
 
 #sub-bar {
-    display: flex;
-    justify-content: center;
     border-top: solid 1px #ffd877;
     background-color: #fdfbf1;
     color: #004d4c;
@@ -84,13 +78,13 @@ h2 {
 }
 
 #featured-container {
-    margin-left: 20px;
     padding-left: 20px;
     border-left: solid 2px #ffd877;
 }
 
-.paragrah-title-container {
-    margin: 35px 0;
+.paragrah-title {
     border-bottom: solid 1px #c4f3f2;
+    width: 100%;
+    padding: 25px 0;
 }
 
